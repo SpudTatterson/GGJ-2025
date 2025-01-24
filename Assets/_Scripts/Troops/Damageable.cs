@@ -25,6 +25,6 @@ public class Damageable : MonoBehaviour
 
     private void Die()
     {
-        Destroy(gameObject);
+        Destroy(gameObject); // if we have time make object pool
     }
 }
