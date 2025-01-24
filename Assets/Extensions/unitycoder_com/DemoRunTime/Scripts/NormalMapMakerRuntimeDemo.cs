@@ -32,7 +32,7 @@ public class NormalMapMakerRuntimeDemo : MonoBehaviour
 
 
 		// assign as maintexture
-		renderer.material.mainTexture = www.texture;
+		GetComponent<Renderer>().material.mainTexture = www.texture;
 
 		// OPTIONAL: filter the texture first before creating normal map
 		Debug.Log ("Filtering texture..");
@@ -42,7 +42,7 @@ public class NormalMapMakerRuntimeDemo : MonoBehaviour
 		Debug.Log ("Creating normal map");
 		Texture2D normalTex = NormalMapTools.CreateNormalmap(filteredTex,6);
 		//Texture2D normalTex = NormalMapTools.CreateNormalmap(www.texture,5); // if want to use original texture, instead of filtered
-		renderer.material.SetTexture("_BumpMap",normalTex);
+		GetComponent<Renderer>().material.SetTexture("_BumpMap",normalTex);
 		// NOTE: Normal map shader needs to be modified, UnpackNormal() is not needed, it breaks the runtime normalmap..
 		// http://forum.unity3d.com/threads/creating-runtime-normal-maps-using-rendertotexture.135841/#post-924587
 
@@ -51,7 +51,7 @@ public class NormalMapMakerRuntimeDemo : MonoBehaviour
 //		Texture2D specularTex = NormalMapTools.CreateSpecular(www.texture,1.2f,0.35f); // using original texture
 		Debug.Log ("Creating specular map");
 		Texture2D specularTex = NormalMapTools.CreateSpecular(filteredTex,1.2f,0.5f); // using filtered texture
-		renderer.material.SetTexture("_SpecMap",specularTex);
+		GetComponent<Renderer>().material.SetTexture("_SpecMap",specularTex);
 
 
 		// EXTRA TOOLS: combine rgb texture + specular texture (if you want to use unity default specular shader which takes main texture as RGB + A = gloss)

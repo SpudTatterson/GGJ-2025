@@ -296,9 +296,9 @@ namespace unitycodercom_mapmaker
 			{
 				// mark it as normal map texture type
 				TextureImporter normalTextureImporter = assetImporter as TextureImporter;
-				if (normalTextureImporter.textureType!=TextureImporterType.Bump)
+				if (normalTextureImporter.textureType!=TextureImporterType.NormalMap)
 				{
-					normalTextureImporter.textureType = TextureImporterType.Bump;
+					normalTextureImporter.textureType = TextureImporterType.NormalMap;
 					AssetDatabase.Refresh();
 				}
 				// ping the created file

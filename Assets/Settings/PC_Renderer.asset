@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e7136ccf173734c8ad4051eb0f2677, type: 3}
   m_Name: TiltShift
   m_EditorClassIdentifier: 
-  m_Active: 0
+  m_Active: 1
   settings:
-    intensity: 1
+    intensity: 0.617
     quality: 1
-    angle: -18
-    aperture: 1
-    offset: 0.44
-    blurCurve: 3
-    blur: 1
-    distortion: 5
+    angle: 0
+    aperture: 0.68
+    offset: 0.31
+    blurCurve: 3.53
+    blur: 1.7
+    distortion: 2.4
     distortionScale: 1
     debugView: 0
     focusedBrightness: 0
@@ -29,11 +29,11 @@ MonoBehaviour:
     focusedGamma: 1
     focusedHue: 0
     focusedSaturation: 1
-    unfocusedBrightness: 0
+    unfocusedBrightness: -0.16
     unfocusedContrast: 1
-    unfocusedGamma: 1
+    unfocusedGamma: 0.55
     unfocusedHue: 0
-    unfocusedSaturation: 1
+    unfocusedSaturation: 0.64
     brightness: 0
     contrast: 1
     gamma: 1
