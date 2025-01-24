@@ -49,7 +49,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.78
+    - _Alpha: 0.96
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -57,7 +57,7 @@ Material:
     - _CastShadows: 1
     - _Cull: 2
     - _DstBlend: 10
-    - _Float: 0.07
+    - _Float: 0.15
     - _Metallic: 0.227
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -71,10 +71,11 @@ Material:
     - _ZWriteControl: 0
     - _apply_vd: 1
     m_Colors:
+    - _Distortion_RNG: {r: 4, g: 10, b: 0, a: 0}
     - _Emission_Color: {r: 0.4583097, g: 0.51886785, b: 0, a: 1}
     - _Offset: {r: 0.34, g: 0, b: 0, a: 0}
     - _Tiling: {r: -0.01, g: 1, b: 0, a: 0}
-    - _Vector2: {r: 0.1, g: 0.06, b: 0, a: 0}
+    - _Vector2: {r: 0.37, g: 0.14, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &973192945834116007
