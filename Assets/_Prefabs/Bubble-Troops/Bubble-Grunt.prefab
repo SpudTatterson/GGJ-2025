@@ -292,7 +292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c20ce439b6f8a924fb481853203fd25b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 60
 --- !u!114 &7666990383602708718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 722b732d1be54384faf16a9b2b7d61e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageRange: {x: 8, y: 12}
+  damageRange: {x: 3, y: 6}
   attackTimeRange: {x: 0.1, y: 0.3}
   attackRange: 1.2
   lockToTargetRange: 5
