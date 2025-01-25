@@ -37,7 +37,6 @@ public class AIManager : MonoBehaviour
 
     private void GoToNextSector()
     {
-        Debug.Log("test");
         sectorToCapture.OnBubbleCapture -= GoToNextSector;
         sectorToCapture = sectorToCapture.GetNextSector(false);
 

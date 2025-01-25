@@ -62,7 +62,7 @@ public class CameraController : MonoSingleton<CameraController>
         GetInput();
 
         ScrollToZoom();
-        DragToMove();
+        // DragToMove();
         Movement();
         // DragToRotate();
         // Rotation();
