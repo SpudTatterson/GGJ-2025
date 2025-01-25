@@ -284,6 +284,7 @@ MonoBehaviour:
     m_Bits: 128
   troop: {fileID: 0}
   target: {fileID: 0}
+  particles: {fileID: 0}
 --- !u!135 &4973399987542694098
 SphereCollider:
   m_ObjectHideFlags: 0
