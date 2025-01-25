@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Bubble-Triple
   m_EditorClassIdentifier: 
   prefab: {fileID: 3501220831402431207, guid: 5429359181dc05a4ca5a23997cee8c06, type: 3}
-  spawnTime: 3.5
+  spawnTime: 4

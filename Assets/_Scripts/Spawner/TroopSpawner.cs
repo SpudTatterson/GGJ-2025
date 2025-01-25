@@ -9,6 +9,7 @@ public class TroopSpawner : MonoBehaviour, ISelectable
 
     [SerializeField] LineRenderer lineRenderer;
     [SerializeField] SpriteRenderer selectionSprite;
+    [SerializeField] AudioClip[] spawnSounds;
     float timer;
 
     void Update()
