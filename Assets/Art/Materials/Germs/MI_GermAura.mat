@@ -61,8 +61,10 @@ Material:
     - _CastShadows: 1
     - _Cull: 2
     - _DstBlend: 10
+    - _Ellipse: 0.27
+    - _Ellipse_1: 0.43
     - _Emissive: 2
-    - _Lerp: 0.23
+    - _Lerp: 0.176
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -73,6 +75,6 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 0.5568628, g: 0.5294118, b: 0, a: 0}
+    - _Color: {r: 0.07058824, g: 0.20784314, b: 0.05882353, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
