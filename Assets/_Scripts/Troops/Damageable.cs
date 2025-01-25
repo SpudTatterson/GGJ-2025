@@ -26,5 +26,10 @@ public class Damageable : MonoBehaviour
     private void Die()
     {
         Destroy(gameObject); // if we have time make object pool
+        if (TryGetComponent<ISelectable>(out var selectable))
+        {
+            selectable.OnDeselect();
+            SelectionManager.Instance.UpdateSelection();
+        }
     }
 }

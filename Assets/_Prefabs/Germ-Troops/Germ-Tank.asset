@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd47e850b2e01bf45bf4469d7b91c562, type: 3}
-  m_Name: Germ-Grunts
+  m_Name: Germ-Tank
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3798766799278699912, guid: a000e4eb3bbbed1439adf723ae277736, type: 3}
-  spawnTime: 2.3
+  prefab: {fileID: 6879658866332336934, guid: 66d17dcc7aabf98478787771008a064c, type: 3}
+  spawnTime: 9.8

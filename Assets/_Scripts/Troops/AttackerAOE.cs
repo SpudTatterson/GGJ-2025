@@ -37,4 +37,10 @@ public class AttackerAOE : Attacker
             troop.SendToPosition(closest.transform.position);
         }
     }
+    protected override void OnDrawGizmosSelected()
+    {
+        base.OnDrawGizmosSelected();
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, aoeRange);
+    }
 }

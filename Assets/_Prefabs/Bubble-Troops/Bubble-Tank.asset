@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd47e850b2e01bf45bf4469d7b91c562, type: 3}
-  m_Name: Germ-Grunts
+  m_Name: Bubble-Tank
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3798766799278699912, guid: a000e4eb3bbbed1439adf723ae277736, type: 3}
-  spawnTime: 2.3
+  prefab: {fileID: 270226267890609751, guid: 94563bce2e569614db136a1ad6265d08, type: 3}
+  spawnTime: 9

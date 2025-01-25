@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 722b732d1be54384faf16a9b2b7d61e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageRange: {x: 3, y: 6}
+  damageRange: {x: 2, y: 8}
   attackTimeRange: {x: 0.1, y: 0.3}
   attackRange: 1.2
   lockToTargetRange: 5

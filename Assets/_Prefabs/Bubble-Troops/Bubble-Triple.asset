@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd47e850b2e01bf45bf4469d7b91c562, type: 3}
-  m_Name: Germ-Grunts
+  m_Name: Bubble-Triple
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3798766799278699912, guid: a000e4eb3bbbed1439adf723ae277736, type: 3}
-  spawnTime: 2.3
+  prefab: {fileID: 3501220831402431207, guid: 5429359181dc05a4ca5a23997cee8c06, type: 3}
+  spawnTime: 3.5
