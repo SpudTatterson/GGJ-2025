@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Bubble-Grunt
   m_EditorClassIdentifier: 
   prefab: {fileID: 8288763804908433372, guid: 31e3b4fde89a8564ebb41d0203d61946, type: 3}
-  spawnTime: 1.5
+  spawnTime: 1.9

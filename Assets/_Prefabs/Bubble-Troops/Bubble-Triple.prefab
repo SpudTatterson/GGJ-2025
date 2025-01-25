@@ -644,7 +644,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1073563251452190760, guid: 8aa2946591aab412d97467b430a85400, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.273
       objectReference: {fileID: 0}
     - target: {fileID: 1073563251452190760, guid: 8aa2946591aab412d97467b430a85400, type: 3}
       propertyPath: m_LocalPosition.z
@@ -678,6 +678,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1079588395451524583, guid: 8aa2946591aab412d97467b430a85400, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4711208715938537054, guid: 719bbf9017e984df99c861359b8837ec, type: 3}
     - target: {fileID: 2414447057061263048, guid: 8aa2946591aab412d97467b430a85400, type: 3}
       propertyPath: looping
       value: 0
@@ -706,6 +710,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BubbleGruntCompany
       objectReference: {fileID: 0}
+    - target: {fileID: 7963288498471285614, guid: 8aa2946591aab412d97467b430a85400, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4711208715938537054, guid: 719bbf9017e984df99c861359b8837ec, type: 3}
+    - target: {fileID: 8091505825964279314, guid: 8aa2946591aab412d97467b430a85400, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4711208715938537054, guid: 719bbf9017e984df99c861359b8837ec, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

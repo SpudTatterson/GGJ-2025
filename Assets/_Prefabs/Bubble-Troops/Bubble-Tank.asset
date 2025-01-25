@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Bubble-Tank
   m_EditorClassIdentifier: 
   prefab: {fileID: 270226267890609751, guid: 94563bce2e569614db136a1ad6265d08, type: 3}
-  spawnTime: 9
+  spawnTime: 9.5

@@ -209,4 +209,13 @@ public class Sector : MonoBehaviour
             Gizmos.DrawLine(transform.position, previousSectorBubble.transform.position);
         }
     }
+
+    public bool IsCapturedByGerms()
+    {
+        return germSector;
+    }
+    public bool IsCapturedByBubbles()
+    {
+        return bubbleSector;
+    }
 }
