@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e7136ccf173734c8ad4051eb0f2677, type: 3}
   m_Name: TiltShift
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     intensity: 0.617
     quality: 1
