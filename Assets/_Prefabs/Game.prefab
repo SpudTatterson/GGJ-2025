@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   captureTime: 5
   sectorHalfExtents: {x: 3.45, y: 1.155, z: 8.5}
+  centerOffset: {x: 0, y: 0, z: 0}
   troopLayers:
     serializedVersion: 2
     m_Bits: 384
@@ -1022,6 +1023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   captureTime: 5
   sectorHalfExtents: {x: 3.45, y: 1.155, z: 8.5}
+  centerOffset: {x: 0, y: 0, z: 0}
   troopLayers:
     serializedVersion: 2
     m_Bits: 384
@@ -1333,7 +1335,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   captureTime: 5
-  sectorHalfExtents: {x: 3.45, y: 1.155, z: 8.5}
+  sectorHalfExtents: {x: 3.76, y: 1.03, z: 11.72}
+  centerOffset: {x: -1.21, y: 0, z: 0.67}
   troopLayers:
     serializedVersion: 2
     m_Bits: 384
@@ -2487,6 +2490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   captureTime: 5
   sectorHalfExtents: {x: 3.45, y: 1.155, z: 8.5}
+  centerOffset: {x: 0, y: 0, z: 0}
   troopLayers:
     serializedVersion: 2
     m_Bits: 384
@@ -3190,6 +3194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   captureTime: 5
   sectorHalfExtents: {x: 3.45, y: 1.155, z: 8.5}
+  centerOffset: {x: 0, y: 0, z: 0}
   troopLayers:
     serializedVersion: 2
     m_Bits: 384
@@ -3283,6 +3288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   captureTime: 5
   sectorHalfExtents: {x: 3.45, y: 1.155, z: 8.5}
+  centerOffset: {x: 0, y: 0, z: 0}
   troopLayers:
     serializedVersion: 2
     m_Bits: 384
@@ -3706,6 +3712,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   captureTime: 5
   sectorHalfExtents: {x: 3.45, y: 1.155, z: 8.5}
+  centerOffset: {x: 0, y: 0, z: 0}
   troopLayers:
     serializedVersion: 2
     m_Bits: 384

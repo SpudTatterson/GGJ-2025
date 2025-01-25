@@ -250,6 +250,7 @@ GameObject:
   - component: {fileID: 4958032965225738034}
   - component: {fileID: 4444945556189025509}
   - component: {fileID: 104036176810653415}
+  - component: {fileID: 568399393250369298}
   m_Layer: 8
   m_Name: Germ-Spawner
   m_TagString: Untagged
@@ -433,6 +434,22 @@ LineRenderer:
   m_UseWorldSpace: 0
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
+--- !u!208 &568399393250369298
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6701847234667505757}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.76, y: 0.08, z: 1.13}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 1.1, y: 0, z: 0.05}
+  m_TimeToStationary: 0.5
 --- !u!1 &7864917484820968225
 GameObject:
   m_ObjectHideFlags: 0

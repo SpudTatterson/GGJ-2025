@@ -7,6 +7,7 @@ public class Sector : MonoBehaviour
 {
     [SerializeField] float captureTime = 5f;
     [SerializeField] Vector3 sectorHalfExtents = new Vector3(1, 1, 1);
+    [SerializeField] Vector3 centerOffset = new Vector3(0, 0, 0);
     [SerializeField] LayerMask troopLayers;
 
     [SerializeField] Sector previousSectorGerm;   // The previous sector for Germs
@@ -59,7 +60,7 @@ public class Sector : MonoBehaviour
 
     private void GetTroopsInSector()
     {
-        List<BaseTroop> troops = ComponentUtility.GetComponentsInBox<BaseTroop>(transform.position, sectorHalfExtents, troopLayers);
+        List<BaseTroop> troops = ComponentUtility.GetComponentsInBox<BaseTroop>(transform.position + centerOffset, sectorHalfExtents, troopLayers);
         germCount = 0;
         bubbleCount = 0;
 
@@ -193,7 +194,7 @@ public class Sector : MonoBehaviour
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireCube(transform.position, sectorHalfExtents * 2);
+        Gizmos.DrawWireCube(transform.position + centerOffset, sectorHalfExtents * 2);
 
         // Visualize previous sector connections
         if (previousSectorGerm != null)
