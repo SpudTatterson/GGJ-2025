@@ -298,7 +298,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -5307,7 +5307,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -10458,7 +10458,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -16083,11 +16083,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ccd35dbf87b8f40958da3872de4db3fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.50899976
+      value: 0.5089998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ccd35dbf87b8f40958da3872de4db3fe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.63499993
+      value: -0.52622
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ccd35dbf87b8f40958da3872de4db3fe, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16182,7 +16182,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ccd35dbf87b8f40958da3872de4db3fe, type: 3}
       propertyPath: m_LocalScale.x
-      value: -0.57665527
+      value: 0.5766553
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ccd35dbf87b8f40958da3872de4db3fe, type: 3}
       propertyPath: m_LocalScale.y
@@ -16234,7 +16234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ccd35dbf87b8f40958da3872de4db3fe, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: ccd35dbf87b8f40958da3872de4db3fe, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
