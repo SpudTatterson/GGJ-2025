@@ -326,6 +326,10 @@ public class SelectionManager : MonoSingleton<SelectionManager>
             {
                 troop.SendToPosition(destination);
             }
+            if(selectable is TroopSpawner troopSpawner)
+            {
+                troopSpawner.SetSpawnDestination(destination);
+            }
         }
         // List<Cell> cells = new List<Cell>();
         // firstCell = GridManager.Instance.GetCellFromPosition(destination);
@@ -396,6 +400,7 @@ public class SelectionManager : MonoSingleton<SelectionManager>
         currentSelected.Clear();
 
         selectionStrategy?.CleanUp();
+        UIManager.Instance.DisableAllSelectionMenus();
     }
     void DeselectAllAcceptType(SelectionType type)
     {

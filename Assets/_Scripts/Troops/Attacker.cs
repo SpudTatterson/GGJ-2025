@@ -61,7 +61,7 @@ public class Attacker : MonoBehaviour
         }
     }
 
-    void OnDrawGizmosSelected()
+    protected virtual void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, lockToTargetRange);

@@ -56,7 +56,7 @@ public class TroopSelectionStrategy : ISelectionStrategy
 {
     public void ApplySelection(List<ISelectable> selectedItems)
     {
-
+        UIManager.Instance.DisableAllSelectionMenus();
     }
 
     public void EnableButtons()
