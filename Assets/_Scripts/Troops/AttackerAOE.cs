@@ -22,7 +22,10 @@ public class AttackerAOE : Attacker
             // Check if it's time to attack
             if (timeSinceLastAttack > attackTime)
             {
-                Debug.Log("AOE");
+                foreach (var animator in troop.animators)
+                {
+                    animator.SetTrigger("Attack");
+                }
                 List<Damageable> damageables = ComponentUtility.GetComponentsInRadius<Damageable>(transform.position, aoeRange, enemyLayer);
 
                 foreach (var target in damageables)

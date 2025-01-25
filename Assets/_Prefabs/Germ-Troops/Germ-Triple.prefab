@@ -692,7 +692,12 @@ PrefabInstance:
       propertyPath: InitialModule.startSize.scalar
       value: 3.86
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8855121741755530596, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
+      propertyPath: m_Name
+      value: Tornado
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8057127125100922870, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

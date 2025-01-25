@@ -10,7 +10,7 @@ public class Attacker : MonoBehaviour
     // [SerializeField] AttackerType attackerType;
 
     [SerializeField] protected Vector2 damageRange = new Vector2(8, 12);
-    [SerializeField,  Tooltip("Time between attacks")] protected Vector2 attackTimeRange = new Vector2(0.1f, 0.3f);
+    [SerializeField, Tooltip("Time between attacks")] protected Vector2 attackTimeRange = new Vector2(0.1f, 0.3f);
     [SerializeField] protected float attackRange = 2;
     [SerializeField] protected float lockToTargetRange = 5;
     [SerializeField] protected LayerMask enemyLayer;
@@ -48,7 +48,10 @@ public class Attacker : MonoBehaviour
             // Check if it's time to attack
             if (timeSinceLastAttack > attackTime)
             {
-
+                foreach (var animator in troop.animators)
+                {
+                    animator.SetTrigger("Attack");
+                }
                 target.TakeDamage(Random.Range(damageRange.x, damageRange.y));
                 timeSinceLastAttack = 0;
                 attackTime = Random.Range(attackTimeRange.x, attackTimeRange.y);
