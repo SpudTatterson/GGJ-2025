@@ -6,7 +6,7 @@ public class Damageable : MonoBehaviour
 {
     [SerializeField] float maxHealth = 100;
     // [SerializeField] float defenseMultiplier;
-
+    public event Action OnDeath;
     float health;
 
     void Awake()
@@ -40,5 +40,6 @@ public class Damageable : MonoBehaviour
             selectable.OnDeselect();
             SelectionManager.Instance.UpdateSelection();
         }
+        OnDeath?.Invoke();
     }
 }

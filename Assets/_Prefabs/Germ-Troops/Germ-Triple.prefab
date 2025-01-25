@@ -446,6 +446,7 @@ MonoBehaviour:
     m_Bits: 128
   troop: {fileID: 0}
   target: {fileID: 0}
+  particles: {fileID: 6109816621316407232}
   aoeRange: 1.5
 --- !u!1 &4314542349301753198
 GameObject:
@@ -684,6 +685,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7958643952099233025, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958643952099233025, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 3.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958643952099233025, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.46
+      objectReference: {fileID: 0}
     - target: {fileID: 7975820713720717487, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
       propertyPath: moveWithTransform
       value: 0
@@ -692,9 +705,33 @@ PrefabInstance:
       propertyPath: InitialModule.startSize.scalar
       value: 3.86
       objectReference: {fileID: 0}
+    - target: {fileID: 8541985394699928435, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541985394699928435, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 3.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541985394699928435, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.46
+      objectReference: {fileID: 0}
     - target: {fileID: 8855121741755530596, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
       propertyPath: m_Name
       value: Tornado
+      objectReference: {fileID: 0}
+    - target: {fileID: 9036857598689170516, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 9036857598689170516, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 3.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 9036857598689170516, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.46
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8057127125100922870, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
@@ -702,6 +739,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
+--- !u!198 &6109816621316407232 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8082944961978625662, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
+  m_PrefabInstance: {fileID: 2658828326261723582}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7769960304243125557 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5706764399698492555, guid: 4555f6513113c43e4bd04c030eb4a594, type: 3}
