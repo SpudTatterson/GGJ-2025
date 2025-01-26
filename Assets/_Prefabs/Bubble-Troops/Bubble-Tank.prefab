@@ -73,6 +73,7 @@ MonoBehaviour:
     m_Bits: 256
   troop: {fileID: 0}
   target: {fileID: 0}
+  particles: {fileID: 5992928839985027794}
   aoeRange: 2
 --- !u!195 &7627913022226147816
 NavMeshAgent:
@@ -264,7 +265,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.70710576, y: -0, z: -0, w: 0.70710784}
   m_LocalPosition: {x: 0, y: 0.065, z: 0}
-  m_LocalScale: {x: 6.8415, y: 7.1300116, z: 4.840798}
+  m_LocalScale: {x: 9.220289, y: 9.609117, z: 6.5239434}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7333827930243139410}
@@ -5138,7 +5139,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9460248894a0249d6a14d85fe72a8f83, type: 2}
+  - {fileID: 2100000, guid: 220ae9a0b0139450eb85db6694824984, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5325,9 +5326,9 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -10115,7 +10116,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9460248894a0249d6a14d85fe72a8f83, type: 2}
+  - {fileID: 2100000, guid: 220ae9a0b0139450eb85db6694824984, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10253,8 +10254,30 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4333965102130786192, guid: 15df254c44cfd4374a0f6f6669a9725c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1717573576103071989}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7150881551434003992, guid: 15df254c44cfd4374a0f6f6669a9725c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3469240418273041788}
   m_SourcePrefab: {fileID: 100100000, guid: 15df254c44cfd4374a0f6f6669a9725c, type: 3}
+--- !u!1 &119231018360621708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7150881551434003992, guid: 15df254c44cfd4374a0f6f6669a9725c, type: 3}
+  m_PrefabInstance: {fileID: 7105166291577207956}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3469240418273041788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119231018360621708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe85c68d33d6524a9dead3e2d84bd7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attacker: {fileID: 2337473985408648287}
+  AOE: {fileID: 0}
 --- !u!4 &1764238621936016163 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8854440483771688887, guid: 15df254c44cfd4374a0f6f6669a9725c, type: 3}

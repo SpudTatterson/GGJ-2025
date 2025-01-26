@@ -41,6 +41,7 @@ public class TroopSpawner : MonoBehaviour, ISelectable
             Vector3 destination = transform.InverseTransformPoint(position);
             destination = VectorUtility.FlattenVector(destination, 0.1f);
             lineRenderer.SetPosition(1, destination);
+            // SoundsFXManager.instance.PlayRandomSoundFXClip(spawnSounds, transform, 1);
         }
     }
 

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Germ-Grunts
   m_EditorClassIdentifier: 
   prefab: {fileID: 3798766799278699912, guid: a000e4eb3bbbed1439adf723ae277736, type: 3}
-  spawnTime: 2.3
+  spawnTime: 2

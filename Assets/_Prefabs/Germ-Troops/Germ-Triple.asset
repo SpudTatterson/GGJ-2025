@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Germ-Triple
   m_EditorClassIdentifier: 
   prefab: {fileID: 3050466910716379187, guid: a85d94a307cd8004a9499037f83ce819, type: 3}
-  spawnTime: 4
+  spawnTime: 3

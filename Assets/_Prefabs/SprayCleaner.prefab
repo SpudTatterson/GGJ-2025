@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0af434267febe4dfda3e65b69fda718b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5f57b66049d882646a23cf4f6f1c4bba, type: 2}
     - target: {fileID: 919132149155446097, guid: 0af434267febe4dfda3e65b69fda718b, type: 3}
       propertyPath: m_Name
       value: SprayCleaner

@@ -17,7 +17,7 @@ public class Attacker : MonoBehaviour
     [SerializeField] protected BaseTroop troop;
 
     [SerializeField, ReadOnly] Damageable target;
-    [SerializeField] ParticleSystem particles;
+    [SerializeField] public ParticleSystem particles;
 
     protected float timeSinceLastAttack;
     protected float attackTime = 0.1f;
@@ -53,8 +53,6 @@ public class Attacker : MonoBehaviour
                 {
                     animator.SetTrigger("Attack");
                 }
-                if (particles)
-                    particles.Play();
                 target.TakeDamage(Random.Range(damageRange.x, damageRange.y));
                 timeSinceLastAttack = 0;
                 attackTime = Random.Range(attackTimeRange.x, attackTimeRange.y);
@@ -74,7 +72,12 @@ public class Attacker : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRange);
     }
+
+ 
 }
+
+
+
 
 // public enum AttackerType
 // {

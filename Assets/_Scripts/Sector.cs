@@ -171,7 +171,7 @@ public class Sector : MonoBehaviour
         germSector = true;
         bubbleSector = false;
         germTimer = 0;
-        meshRenderer.material.color = Color.green;
+        meshRenderer.material.SetFloat("_Clean_Dirty_Lerp", 1);
         OnGermCapture?.Invoke();
         ResetCaptureStates();
     }
@@ -182,7 +182,8 @@ public class Sector : MonoBehaviour
         bubbleSector = true;
         germSector = false;
         bubbleTimer = 0;
-        meshRenderer.material.color = Color.cyan;
+        meshRenderer.material.SetFloat("_Clean_Dirty_Lerp", 0);
+
         OnBubbleCapture?.Invoke();
         ResetCaptureStates();
     }
