@@ -14,21 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 0
   settings:
-    intensity: 0.617
+    intensity: 0.465
     quality: 1
     angle: 0
     aperture: 0.68
     offset: 0.31
     blurCurve: 3.53
-    blur: 1.7
-    distortion: 2.4
+    blur: 3.59
+    distortion: 0
     distortionScale: 1
     debugView: 0
     focusedBrightness: 0
     focusedContrast: 1
     focusedGamma: 1
     focusedHue: 0
-    focusedSaturation: 1
+    focusedSaturation: 0
     unfocusedBrightness: -0.16
     unfocusedContrast: 1
     unfocusedGamma: 0.55
