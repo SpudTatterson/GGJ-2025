@@ -8,6 +8,7 @@ public class Damageable : MonoBehaviour
     // [SerializeField] float defenseMultiplier;
     public event Action OnDeath;
     float health;
+    [SerializeField] ParticleSystem deathParticles;
 
     void Awake()
     {
@@ -33,6 +34,10 @@ public class Damageable : MonoBehaviour
             foreach (var animator in troop.animators)
             {
                 animator.SetTrigger("Death");
+            }
+            if (deathParticles != null)
+            {
+                deathParticles.Play();
             }
         }
         if (TryGetComponent<ISelectable>(out var selectable))

@@ -110,6 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 120
+  deathParticles: {fileID: 8031172819090345938}
 --- !u!135 &5915605385671381635
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10286,5 +10287,10 @@ Transform:
 --- !u!4 &6827396925465563908 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4333965102130786192, guid: 15df254c44cfd4374a0f6f6669a9725c, type: 3}
+  m_PrefabInstance: {fileID: 7105166291577207956}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &8031172819090345938 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1003997293930541894, guid: 15df254c44cfd4374a0f6f6669a9725c, type: 3}
   m_PrefabInstance: {fileID: 7105166291577207956}
   m_PrefabAsset: {fileID: 0}

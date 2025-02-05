@@ -294,6 +294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 60
+  deathParticles: {fileID: 7555239639076892868}
 --- !u!114 &7666990383602708718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,6 +465,10 @@ PrefabInstance:
       propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1121870314525760594, guid: 1fe632c20dd6f4ae68c4009419e0ad5d, type: 3}
+      propertyPath: TriggerModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2273029802040253746, guid: 1fe632c20dd6f4ae68c4009419e0ad5d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.54
@@ -553,6 +558,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fe632c20dd6f4ae68c4009419e0ad5d, type: 3}
+--- !u!198 &7555239639076892868 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1121870314525760594, guid: 1fe632c20dd6f4ae68c4009419e0ad5d, type: 3}
+  m_PrefabInstance: {fileID: 7442257170747223190}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8701897829230162340 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2273029802040253746, guid: 1fe632c20dd6f4ae68c4009419e0ad5d, type: 3}
